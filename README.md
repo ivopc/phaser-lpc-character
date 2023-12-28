@@ -1,2 +1,2 @@
 # Phaser 3 Universal LPC Character
-Character Spritesheet based on Universal-LPC-Spritesheet for Phaser 3
+Character Spritesheet based on Universal-LPC-Spritesheet for Phaser 3. This is based in original [Universal LPC Spritesheet Character Generator](https://github.com/Gaurav0/Universal-LPC-Spritesheet-Character-Generator) and [sanderfrenken's LPC Spritesheet Character Generator](https://github.com/sanderfrenken/Universal-LPC-Spritesheet-Character-Generator) using the awesome [LPC](https://lpc.opengameart.org/) game art assets.
