@@ -1,0 +1,19 @@
+{
+  "name": "Other belts",
+  "type_name": "belt",
+  "layer_1": {
+    "zPos": 70,
+    "female": "torso/waist/belt_other/female/"
+  },
+  "variants": [
+    "black",
+    "bronze",
+    "brown",
+    "gold",
+    "iron",
+    "leather",
+    "silver",
+    "teal",
+    "white"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Crossbow",
+  "type_name": "weapon",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/ranged/crossbow/",
+    "muscular": "weapon/ranged/rossbow/",
+    "female": "weapon/ranged/crossbow/",
+    "pregnant": "weapon/ranged/crossbow/"
+  },
+  "variants": [
+    "crossbow"
+  ]
+}

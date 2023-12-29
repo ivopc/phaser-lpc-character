@@ -1,0 +1,22 @@
+{
+  "name": "Close helm",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/close/male/",
+    "pregnant": "hat/helmet/close/male/",
+    "male": "hat/helmet/close/male/",
+    "muscular": "hat/helmet/close/male/",
+    "teen": "hat/helmet/close/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

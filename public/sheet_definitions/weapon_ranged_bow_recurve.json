@@ -1,0 +1,34 @@
+{
+  "name": "Recurve",
+  "type_name": "weapon",
+  "preview_row": 17,
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/ranged/bow/recurve/",
+    "muscular": "weapon/ranged/bow/recurve/",
+    "female": "weapon/ranged/bow/recurve/",
+    "pregnant": "weapon/ranged/bow/recurve/",
+    "teen": "weapon/ranged/bow/recurve/"
+  },
+  "layer_2": {
+    "custom_animation": "walk_128",
+    "zPos": -1,
+    "male": "weapon/ranged/bow/recurve/walk/background/",
+    "muscular": "weapon/ranged/bow/recurve/walk/background/",
+    "female": "weapon/ranged/bow/recurve/walk/background/",
+    "pregnant": "weapon/ranged/bow/recurve/walk/background/",
+    "teen": "weapon/ranged/bow/recurve/walk/background/"
+  },
+  "layer_3": {
+    "custom_animation": "walk_128",
+    "zPos": 141,
+    "male": "weapon/ranged/bow/recurve/walk/foreground/",
+    "muscular": "weapon/ranged/bow/recurve/walk/foreground/",
+    "female": "weapon/ranged/bow/recurve/walk/foreground/",
+    "pregnant": "weapon/ranged/bow/recurve/walk/foreground/",
+    "teen": "weapon/ranged/bow/recurve/walk/foreground/"
+  },
+  "variants": [
+    "recurve"
+  ]
+}

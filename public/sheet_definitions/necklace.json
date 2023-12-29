@@ -1,0 +1,21 @@
+{
+  "name": "Necklace",
+  "type_name": "necklace",
+  "layer_1": {
+    "zPos": 80,
+    "female": "necklace/female/",
+    "teen": "necklace/teen/",
+    "pregnant": "necklace/female/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold",
+    "pirate"
+  ]
+}

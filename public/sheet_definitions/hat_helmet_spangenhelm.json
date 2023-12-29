@@ -1,0 +1,22 @@
+{
+  "name": "Spangenhelm",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/spangenhelm/male/",
+    "pregnant": "hat/helmet/spangenhelm/male/",
+    "male": "hat/helmet/spangenhelm/male/",
+    "muscular": "hat/helmet/spangenhelm/male/",
+    "teen": "hat/helmet/spangenhelm/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

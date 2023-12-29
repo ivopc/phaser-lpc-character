@@ -1,0 +1,22 @@
+{
+  "name": "Xeon helmet",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/xeon/male/",
+    "pregnant": "hat/helmet/xeon/male/",
+    "male": "hat/helmet/xeon/male/",
+    "muscular": "hat/helmet/xeon/male/",
+    "teen": "hat/helmet/xeon/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

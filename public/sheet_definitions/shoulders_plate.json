@@ -1,0 +1,21 @@
+{
+  "name": "Plate",
+  "type_name": "shoulders",
+  "layer_1": {
+    "zPos": 60,
+    "male": "shoulders/plate/male/",
+    "female": "shoulders/plate/female/",
+    "muscular": "shoulders/plate/male/",
+    "pregnant": "shoulders/plate/female/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

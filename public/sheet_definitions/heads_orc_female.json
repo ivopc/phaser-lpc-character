@@ -1,0 +1,29 @@
+{
+  "name": "Orc female",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/orc_female/universal/",
+    "muscular": "head/heads/orc_female/universal/",
+    "female": "head/heads/orc_female/universal/",
+    "pregnant": "head/heads/orc_female/universal/",
+    "teen": "head/heads/orc_female/universal/"
+  },
+  "variants": [
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green"
+  ],
+  "match_body_color": true
+}

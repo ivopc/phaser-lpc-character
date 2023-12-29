@@ -1,0 +1,15 @@
+{
+  "name": "Jack O Lantern",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/jack/universal/",
+    "muscular": "head/heads/jack/universal/",
+    "female": "head/heads/jack/universal/",
+    "pregnant": "head/heads/jack/universal/",
+    "teen": "head/heads/jack/universal/"
+  },
+  "variants": [
+    "jack"
+  ]
+}

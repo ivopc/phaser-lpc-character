@@ -1,0 +1,25 @@
+{
+  "name": "Lizard child",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "child": "head/heads/lizard_child/universal/"
+  },
+  "variants": [
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green"
+  ],
+  "match_body_color": true
+}

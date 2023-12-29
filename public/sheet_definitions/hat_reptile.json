@@ -1,0 +1,24 @@
+{
+  "name": "Reptile",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "male": "hat/reptile/male/",
+    "female": "hat/reptile/male/",
+    "muscular": "hat/reptile/male/",
+    "pregnant": "hat/reptile/male/",
+    "teen": "hat/reptile/male/"
+  },
+  "variants": [
+    "bandana red",
+    "fin blue",
+    "fin dark",
+    "fin light",
+    "hood",
+    "horn 1",
+    "horn 2",
+    "shortfin blue",
+    "shortfin dark",
+    "shortfin light"
+  ]
+}

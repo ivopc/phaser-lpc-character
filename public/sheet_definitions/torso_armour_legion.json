@@ -1,0 +1,19 @@
+{
+  "name": "Legion",
+  "type_name": "armour",
+  "layer_1": {
+    "zPos": 60,
+    "male": "torso/armour/legion/male/",
+    "female": "torso/armour/legion/female/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

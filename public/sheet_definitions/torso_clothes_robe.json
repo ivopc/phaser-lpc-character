@@ -1,0 +1,20 @@
+{
+  "name": "Robe",
+  "type_name": "clothes",
+  "layer_1": {
+    "zPos": 35,
+    "female": "torso/clothes/robe/female/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "brown",
+    "dark brown",
+    "dark gray",
+    "forest green",
+    "light gray",
+    "purple",
+    "red",
+    "white"
+  ]
+}

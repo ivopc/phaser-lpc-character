@@ -1,0 +1,21 @@
+{
+  "name": "Bracers",
+  "type_name": "bracers",
+  "layer_1": {
+    "zPos": 70,
+    "male": "arms/bracers/male/",
+    "female": "arms/bracers/female/",
+    "pregnant": "arms/bracers/female/",
+    "muscular": "arms/bracers/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Eyepatch",
+  "type_name": "eyepatch",
+  "layer_1": {
+    "zPos": 25,
+    "male": "facial/eyepatch/male/",
+    "muscular": "facial/eyepatch/male/",
+    "female": "facial/eyepatch/female/",
+    "pregnant": "facial/eyepatch/female/"
+  },
+  "variants": [
+    "eyepatch"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Crest",
+  "type_name": "accessory",
+  "layer_1": {
+    "zPos": 139,
+    "female": "hat/accessory/crest/male/",
+    "pregnant": "hat/accessory/crest/male/",
+    "male": "hat/accessory/crest/male/",
+    "muscular": "hat/accessory/crest/male/",
+    "teen": "hat/accessory/crest/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

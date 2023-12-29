@@ -1,0 +1,22 @@
+{
+  "name": "Centurion Crest",
+  "type_name": "accessory",
+  "layer_1": {
+    "zPos": 139,
+    "female": "hat/accessory/crest_centurion/male/",
+    "pregnant": "hat/accessory/crest_centurion/male/",
+    "male": "hat/accessory/crest_centurion/male/",
+    "muscular": "hat/accessory/crest_centurion/male/",
+    "teen": "hat/accessory/crest_centurion/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

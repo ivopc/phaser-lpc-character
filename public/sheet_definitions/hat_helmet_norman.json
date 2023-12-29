@@ -1,0 +1,22 @@
+{
+  "name": "Norman helm",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 135,
+    "female": "hat/helmet/norman/male/",
+    "pregnant": "hat/helmet/norman/male/",
+    "male": "hat/helmet/norman/male/",
+    "muscular": "hat/helmet/norman/male/",
+    "teen": "hat/helmet/norman/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

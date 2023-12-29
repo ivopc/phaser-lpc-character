@@ -1,0 +1,40 @@
+{
+  "name": "High and tight",
+  "type_name": "hair",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/high_and_tight/male/",
+    "muscular": "hair/high_and_tight/male/",
+    "female": "hair/high_and_tight/female/",
+    "pregnant": "hair/high_and_tight/female/",
+    "teen": "hair/high_and_tight/male/"
+  },
+  "variants": [
+    "blonde",
+    "ash",
+    "sandy",
+    "platinum",
+    "strawberry",
+    "redhead",
+    "ginger",
+    "carrot",
+    "chestnut",
+    "light brown",
+    "dark brown",
+    "black",
+    "raven",
+    "dark gray",
+    "gray",
+    "white",
+    "red",
+    "orange",
+    "gold",
+    "green",
+    "blue",
+    "navy",
+    "violet",
+    "purple",
+    "pink",
+    "rose"
+  ]
+}

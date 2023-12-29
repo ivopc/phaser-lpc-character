@@ -1,0 +1,22 @@
+{
+  "name": "Cloth",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "male": "hat/cloth/male/",
+    "female": "hat/cloth/male/",
+    "muscular": "hat/cloth/male/",
+    "pregnant": "hat/cloth/male/",
+    "teen": "hat/cloth/male/"
+  },
+  "variants": [
+    "bandana gray",
+    "bandana red",
+    "bandana white",
+    "hijab",
+    "leather",
+    "hood black",
+    "hood brown",
+    "hood white"
+  ]
+}

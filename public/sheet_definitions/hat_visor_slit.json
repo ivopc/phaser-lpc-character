@@ -1,0 +1,22 @@
+{
+  "name": "Slit visor",
+  "type_name": "visor",
+  "layer_1": {
+    "zPos": 132,
+    "female": "hat/visor/slit/male/",
+    "pregnant": "hat/visor/slit/male/",
+    "male": "hat/visor/slit/male/",
+    "muscular": "hat/visor/slit/male/",
+    "teen": "hat/visor/slit/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

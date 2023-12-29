@@ -1,0 +1,20 @@
+{
+  "name": "Child shirts",
+  "type_name": "clothes",
+  "layer_1": {
+    "zPos": 35,
+    "child": "torso/clothes/shirt/child/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "brown",
+    "gray",
+    "green",
+    "lavender",
+    "lightblue",
+    "pink",
+    "red",
+    "white"
+  ]
+}

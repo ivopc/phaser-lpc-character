@@ -1,0 +1,15 @@
+{
+  "name": "Zombie",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/zombie/universal/",
+    "muscular": "head/heads/zombie/universal/",
+    "female": "head/heads/zombie/universal/",
+    "pregnant": "head/heads/zombie/universal/",
+    "teen": "head/heads/zombie/universal/"
+  },
+  "variants": [
+    "zombie"
+  ]
+}

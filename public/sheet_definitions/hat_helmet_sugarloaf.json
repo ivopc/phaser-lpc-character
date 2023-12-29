@@ -1,0 +1,22 @@
+{
+  "name": "Sugarloaf greathelm",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/sugarloaf/male/",
+    "pregnant": "hat/helmet/sugarloaf/male/",
+    "male": "hat/helmet/sugarloaf/male/",
+    "muscular": "hat/helmet/sugarloaf/male/",
+    "teen": "hat/helmet/sugarloaf/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

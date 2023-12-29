@@ -1,0 +1,28 @@
+{
+  "name": "Helmet wings",
+  "type_name": "accessory",
+  "layer_1": {
+    "zPos": 139,
+    "female": "hat/accessory/wings/fg/male/",
+    "pregnant": "hat/accessory/wings/fg/male/",
+    "male": "hat/accessory/wings/fg/male/",
+    "muscular": "hat/accessory/wings/fg/male/"
+  },
+  "layer_2": {
+    "zPos": 125,
+    "female": "hat/accessory/wings/bg/male/",
+    "pregnant": "hat/accessory/wings/bg/male/",
+    "male": "hat/accessory/wings/bg/male/",
+    "muscular": "hat/accessory/wings/bg/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

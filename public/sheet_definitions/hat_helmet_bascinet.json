@@ -1,0 +1,22 @@
+{
+  "name": "Bascinet",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/bascinet/male/",
+    "pregnant": "hat/helmet/bascinet/male/",
+    "male": "hat/helmet/bascinet/male/",
+    "muscular": "hat/helmet/bascinet/male/",
+    "teen": "hat/helmet/bascinet/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

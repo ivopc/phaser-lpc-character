@@ -1,0 +1,12 @@
+{
+  "name": "Collared longsleeve",
+  "type_name": "clothes",
+  "layer_1": {
+    "zPos": 35,
+    "male": "torso/clothes/longsleeve/male/"
+  },
+  "variants": [
+    "formal",
+    "formal striped"
+  ]
+}

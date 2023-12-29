@@ -1,0 +1,40 @@
+{
+  "name": "Afro",
+  "type_name": "hair",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/afro/male/",
+    "muscular": "hair/afro/male/",
+    "female": "hair/afro/male/",
+    "pregnant": "hair/afro/male/",
+    "teen": "hair/afro/male/"
+  },
+  "variants": [
+    "blonde",
+    "ash",
+    "sandy",
+    "platinum",
+    "strawberry",
+    "redhead",
+    "ginger",
+    "carrot",
+    "chestnut",
+    "light brown",
+    "dark brown",
+    "black",
+    "raven",
+    "dark gray",
+    "gray",
+    "white",
+    "red",
+    "orange",
+    "gold",
+    "green",
+    "blue",
+    "navy",
+    "violet",
+    "purple",
+    "pink",
+    "rose"
+  ]
+}

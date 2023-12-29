@@ -1,0 +1,38 @@
+{
+  "name": "Plumage",
+  "type_name": "accessory",
+  "layer_1": {
+    "zPos": 139,
+    "female": "hat/accessory/plumage/male/",
+    "pregnant": "hat/accessory/plumage/male/",
+    "male": "hat/accessory/plumage/male/",
+    "muscular": "hat/accessory/plumage/male/",
+    "teen": "hat/accessory/plumage/male/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

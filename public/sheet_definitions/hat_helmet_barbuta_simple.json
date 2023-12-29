@@ -1,0 +1,22 @@
+{
+  "name": "Simple barbuta",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/barbuta_simple/male/",
+    "pregnant": "hat/helmet/barbuta_simple/male/",
+    "male": "hat/helmet/barbuta_simple/male/",
+    "muscular": "hat/helmet/barbuta_simple/male/",
+    "teen": "hat/helmet/barbuta_simple/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

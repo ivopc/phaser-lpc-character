@@ -1,0 +1,21 @@
+{
+  "name": "Misc",
+  "type_name": "weapon",
+  "layer_1": {
+    "custom_animation": "thrust_oversize",
+    "zPos": 140,
+    "male": "weapon/misc/male/",
+    "muscular": "weapon/misc/male/",
+    "female": "weapon/misc/female/",
+    "pregnant": "weapon/misc/female/"
+  },
+  "variants": [
+    "longspear",
+    "longspear alt",
+    "magic",
+    "magic on",
+    "magic alt",
+    "magic alt on",
+    "trident"
+  ]
+}

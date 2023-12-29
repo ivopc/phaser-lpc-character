@@ -1,0 +1,23 @@
+{
+  "name": "Eyes",
+  "type_name": "eyes",
+  "layer_1": {
+    "zPos": 105,
+    "male": "eyes/male/",
+    "muscular": "eyes/male/",
+    "female": "eyes/male/",
+    "teen": "eyes/male/",
+    "pregnant": "eyes/male/"
+  },
+  "variants": [
+    "blue",
+    "brown",
+    "gray",
+    "green",
+    "orange",
+    "purple",
+    "red",
+    "yellow",
+    "cyclope"
+  ]
+}

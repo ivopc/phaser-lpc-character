@@ -1,0 +1,38 @@
+{
+  "name": "Capetie",
+  "type_name": "neck",
+  "layer_1": {
+    "zPos": 90,
+    "male": "neck/capetie/male/",
+    "muscular": "neck/capetie/male/",
+    "female": "neck/capetie/female/",
+    "teen": "neck/capetie/female/",
+    "pregnant": "neck/capetie/female/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

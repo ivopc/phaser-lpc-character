@@ -1,0 +1,22 @@
+{
+  "name": "Legion",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/legion/male/",
+    "pregnant": "hat/helmet/legion/male/",
+    "male": "hat/helmet/legion/male/",
+    "muscular": "hat/helmet/legion/male/",
+    "teen": "hat/helmet/legion/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

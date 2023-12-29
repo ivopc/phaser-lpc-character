@@ -1,0 +1,17 @@
+{
+  "name": "Frock coat lapel",
+  "type_name": "jacket_trim",
+  "layer_1": {
+    "zPos": 58,
+    "male": "torso/jacket/trim/frock_lapel/"
+  },
+  "variants": [
+    "bronze",
+    "gold",
+    "silver",
+    "red",
+    "blue",
+    "teal",
+    "yellow"
+  ]
+}

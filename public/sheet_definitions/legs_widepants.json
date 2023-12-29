@@ -1,0 +1,14 @@
+{
+  "name": "Wide pants",
+  "type_name": "legs",
+  "layer_1": {
+    "zPos": 20,
+    "muscular": "legs/pants/muscular/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "brown",
+    "white"
+  ]
+}

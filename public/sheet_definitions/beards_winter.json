@@ -1,0 +1,37 @@
+{
+  "name": "Winter",
+  "type_name": "beard",
+  "layer_1": {
+    "zPos": 60,
+    "male": "beards/winter/male/",
+    "muscular": "beards/winter/male/"
+  },
+  "variants": [
+    "blonde",
+    "ash",
+    "sandy",
+    "platinum",
+    "strawberry",
+    "redhead",
+    "ginger",
+    "carrot",
+    "chestnut",
+    "light brown",
+    "dark brown",
+    "black",
+    "raven",
+    "dark gray",
+    "gray",
+    "white",
+    "red",
+    "orange",
+    "gold",
+    "green",
+    "blue",
+    "navy",
+    "violet",
+    "purple",
+    "pink",
+    "rose"
+  ]
+}

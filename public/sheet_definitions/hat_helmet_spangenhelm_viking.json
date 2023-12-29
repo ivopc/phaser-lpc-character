@@ -1,0 +1,22 @@
+{
+  "name": "Viking spangenhelm",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/spangenhelm_viking/male/",
+    "pregnant": "hat/helmet/spangenhelm_viking/male/",
+    "male": "hat/helmet/spangenhelm_viking/male/",
+    "muscular": "hat/helmet/spangenhelm_viking/male/",
+    "teen": "hat/helmet/spangenhelm_viking/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

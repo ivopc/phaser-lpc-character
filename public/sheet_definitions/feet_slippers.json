@@ -1,0 +1,38 @@
+{
+  "name": "Slippers",
+  "type_name": "shoes",
+  "layer_1": {
+    "zPos": 15,
+    "male": "feet/slippers/male/",
+    "muscular": "feet/slippers/male/",
+    "female": "feet/slippers/female/",
+    "teen": "feet/slippers/female/",
+    "pregnant": "feet/slippers/female/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Maximus",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/maximus/male/",
+    "pregnant": "hat/helmet/maximus/male/",
+    "male": "hat/helmet/maximus/male/",
+    "muscular": "hat/helmet/maximus/male/",
+    "teen": "hat/helmet/maximus/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

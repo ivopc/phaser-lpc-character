@@ -1,0 +1,39 @@
+{
+  "name": "Beard",
+  "type_name": "beard",
+  "layer_1": {
+    "zPos": 20,
+    "male": "beards/beard/male/",
+    "muscular": "beards/beard/male/"
+  },
+  "variants": [
+    "black",
+    "blonde",
+    "blonde 2",
+    "blue",
+    "blue 2",
+    "brown",
+    "brunette",
+    "brunette 2",
+    "darkblonde",
+    "gold",
+    "gray",
+    "gray 2",
+    "green",
+    "green 2",
+    "lightblonde",
+    "lightblonde 2",
+    "pink",
+    "pink 2",
+    "purple",
+    "raven",
+    "raven 2",
+    "redhead",
+    "redhead 2",
+    "rubyred",
+    "white",
+    "whiteblonde",
+    "whiteblonde 2",
+    "whitecyan"
+  ]
+}

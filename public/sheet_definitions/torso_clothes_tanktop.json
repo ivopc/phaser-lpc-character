@@ -1,0 +1,35 @@
+{
+  "name": "Tanktop",
+  "type_name": "clothes",
+  "layer_1": {
+    "zPos": 35,
+    "pregnant": "torso/clothes/tanktop/pregnant/",
+    "female": "torso/clothes/tanktop/female/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Saber",
+  "type_name": "weapon",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/sword/saber/",
+    "muscular": "weapon/sword/saber/",
+    "female": "weapon/sword/saber/",
+    "pregnant": "weapon/sword/saber/"
+  },
+  "layer_2": {
+    "zPos": 9,
+    "male": "weapon/sword/saber/universal_behind/",
+    "muscular": "weapon/sword/saber/universal_behind/",
+    "female": "weapon/sword/saber/universal_behind/",
+    "pregnant": "weapon/sword/saber/universal_behind/"
+  },
+  "layer_3": {
+    "zPos": 8,
+    "custom_animation": "slash_oversize",
+    "male": "weapon/sword/saber/attack_slash/behind/",
+    "muscular": "weapon/sword/saber/attack_slash/behind/",
+    "female": "weapon/sword/saber/attack_slash/behind/",
+    "pregnant": "weapon/sword/saber/attack_slash/behind/"
+  },
+  "layer_4": {
+    "zPos": 150,
+    "custom_animation": "slash_oversize",
+    "male": "weapon/sword/saber/attack_slash/",
+    "muscular": "weapon/sword/saber/attack_slash/",
+    "female": "weapon/sword/saber/attack_slash/",
+    "pregnant": "weapon/sword/saber/attack_slash/"
+  },
+  "variants": [
+    "saber"
+  ]
+}

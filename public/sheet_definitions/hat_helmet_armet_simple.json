@@ -1,0 +1,22 @@
+{
+  "name": "Simple Armet",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/armet_simple/male/",
+    "pregnant": "hat/helmet/armet_simple/male/",
+    "male": "hat/helmet/armet_simple/male/",
+    "muscular": "hat/helmet/armet_simple/male/",
+    "teen": "hat/helmet/armet_simple/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

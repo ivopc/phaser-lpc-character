@@ -1,0 +1,15 @@
+{
+  "name": "Backwards Horns",
+  "type_name": "horns",
+  "layer_1": {
+    "zPos": 125,
+    "male": "head/horns/horns_backwards/",
+    "muscular": "head/horns/horns_backwards/",
+    "female": "head/horns/horns_backwards/",
+    "pregnant": "head/horns/horns_backwards/",
+    "teen": "head/horns/horns_backwards/"
+  },
+  "variants": [
+    "horns"
+  ]
+}

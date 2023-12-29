@@ -1,0 +1,40 @@
+{
+  "name": "Halfmessy",
+  "type_name": "hair",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/halfmessy/male/",
+    "muscular": "hair/halfmessy/male/",
+    "female": "hair/halfmessy/female/",
+    "pregnant": "hair/halfmessy/female/",
+    "teen": "hair/halfmessy/male/"
+  },
+  "variants": [
+    "blonde",
+    "ash",
+    "sandy",
+    "platinum",
+    "strawberry",
+    "redhead",
+    "ginger",
+    "carrot",
+    "chestnut",
+    "light brown",
+    "dark brown",
+    "black",
+    "raven",
+    "dark gray",
+    "gray",
+    "white",
+    "red",
+    "orange",
+    "gold",
+    "green",
+    "blue",
+    "navy",
+    "violet",
+    "purple",
+    "pink",
+    "rose"
+  ]
+}

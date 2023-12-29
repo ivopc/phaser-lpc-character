@@ -1,0 +1,35 @@
+{
+  "name": "Tied headband",
+  "type_name": "headcover",
+  "layer_1": {
+    "zPos": 125,
+    "female": "hat/head_band_tied/female/",
+    "male": "hat/head_band_tied/male/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

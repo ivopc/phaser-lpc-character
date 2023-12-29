@@ -1,0 +1,22 @@
+{
+  "name": "Wolf female",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/wolf_female/universal/",
+    "muscular": "head/heads/wolf_female/universal/",
+    "female": "head/heads/wolf_female/universal/",
+    "pregnant": "head/heads/wolf_female/universal/",
+    "teen": "head/heads/wolf_female/universal/"
+  },
+  "variants": [
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white"
+  ],
+  "match_body_color": true
+}

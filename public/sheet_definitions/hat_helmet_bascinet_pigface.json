@@ -1,0 +1,22 @@
+{
+  "name": "Pigface bascinet",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/bascinet_pigface/male/",
+    "pregnant": "hat/helmet/bascinet_pigface/male/",
+    "male": "hat/helmet/bascinet_pigface/male/",
+    "muscular": "hat/helmet/bascinet_pigface/male/",
+    "teen": "hat/helmet/bascinet_pigface/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

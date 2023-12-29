@@ -1,0 +1,15 @@
+{
+  "name": "Skeleton",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/skeleton/universal/",
+    "muscular": "head/heads/skeleton/universal/",
+    "female": "head/heads/skeleton/universal/",
+    "pregnant": "head/heads/skeleton/universal/",
+    "teen": "head/heads/skeleton/universal/"
+  },
+  "variants": [
+    "skeleton"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Horned helmet",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/horned/male/",
+    "pregnant": "hat/helmet/horned/male/",
+    "male": "hat/helmet/horned/male/",
+    "muscular": "hat/helmet/horned/male/",
+    "teen": "hat/helmet/horned/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

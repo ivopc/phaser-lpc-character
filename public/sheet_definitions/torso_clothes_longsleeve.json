@@ -1,0 +1,37 @@
+{
+  "name": "Longsleeve",
+  "type_name": "clothes",
+  "layer_1": {
+    "zPos": 35,
+    "female": "torso/clothes/longsleeve/female/",
+    "male": "torso/clothes/longsleeve/male/",
+    "teen": "torso/clothes/longsleeve/teen/",
+    "pregnant": "torso/clothes/longsleeve/pregnant/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

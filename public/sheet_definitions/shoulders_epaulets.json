@@ -1,0 +1,17 @@
+{
+  "name": "Epaulets",
+  "type_name": "shoulders",
+  "layer_1": {
+    "zPos": 60,
+    "male": "shoulders/epaulets/male/"
+  },
+  "variants": [
+    "bronze",
+    "gold",
+    "silver",
+    "red",
+    "blue",
+    "teal",
+    "yellow"
+  ]
+}

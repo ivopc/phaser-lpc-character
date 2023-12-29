@@ -1,0 +1,21 @@
+{
+  "name": "Longest",
+  "type_name": "hair",
+  "layer_1": {
+    "zPos": 120,
+    "female": "hair/longest/female/",
+    "pregnant": "hair/longest/female/"
+  },
+  "layer_2": {
+    "zPos": 8,
+    "female": "hair/longest/female/behind/",
+    "pregnant": "hair/longest/female/behind/"
+  },
+  "variants": [
+    "black",
+    "brunette",
+    "gold",
+    "purple",
+    "red"
+  ]
+}

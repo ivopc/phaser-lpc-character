@@ -1,0 +1,23 @@
+{
+  "name": "Magic",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "male": "hat/magic/male/",
+    "female": "hat/magic/male/",
+    "muscular": "hat/magic/male/",
+    "pregnant": "hat/magic/male/",
+    "teen": "hat/magic/male/"
+  },
+  "variants": [
+    "black",
+    "brown",
+    "gray",
+    "red",
+    "teal",
+    "yellow",
+    "moon",
+    "no moon",
+    "brown 2"
+  ]
+}

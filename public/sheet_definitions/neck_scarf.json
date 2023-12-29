@@ -1,0 +1,20 @@
+{
+  "name": "Scarf",
+  "type_name": "neck",
+  "layer_1": {
+    "zPos": 90,
+    "male": "neck/scarf/",
+    "female": "neck/scarf/",
+    "pregnant": "neck/scarf/",
+    "muscular": "neck/scarf/",
+    "teen": "neck/scarf/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "brown",
+    "gray",
+    "red",
+    "white"
+  ]
+}

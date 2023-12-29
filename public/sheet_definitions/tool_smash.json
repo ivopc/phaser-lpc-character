@@ -1,0 +1,25 @@
+{
+  "name" : "Smash",
+  "type_name" : "weapon",
+  "layer_1": {
+    "zPos": 9,
+    "custom_animation": "slash_128",
+    "male": "tools/smash/background/",
+    "muscular": "tools/smash/background/",
+    "female": "tools/smash/background/",
+    "pregnant": "tools/smash/background/"
+  },
+  "layer_2": {
+    "zPos": 150,
+    "custom_animation": "slash_128",
+    "male": "tools/smash/foreground/",
+    "muscular": "tools/smash/foreground/",
+    "female": "tools/smash/foreground/",
+    "pregnant": "tools/smash/foreground/"
+  },
+  "variants": [
+    "axe",
+    "hammer",
+    "pickaxe"
+  ]
+}

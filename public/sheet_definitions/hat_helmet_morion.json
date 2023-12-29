@@ -1,0 +1,22 @@
+{
+  "name": "Morion",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 135,
+    "female": "hat/helmet/morion/male/",
+    "pregnant": "hat/helmet/morion/male/",
+    "male": "hat/helmet/morion/male/",
+    "muscular": "hat/helmet/morion/male/",
+    "teen": "hat/helmet/morion/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

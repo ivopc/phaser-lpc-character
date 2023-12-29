@@ -1,0 +1,31 @@
+{
+  "name": "Tabard",
+  "type_name": "jacket",
+  "layer_1": {
+    "zPos": 55,
+    "female": "torso/jacket/tabard/female/",
+    "teen": "torso/jacket/tabard/female/",
+    "male": "torso/jacket/tabard/male/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "sky",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

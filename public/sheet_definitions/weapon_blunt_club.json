@@ -1,0 +1,23 @@
+{
+  "name": "Club",
+  "type_name": "weapon",
+  "layer_1": {
+    "custom_animation": "slash_reverse_oversize",
+    "zPos": 140,
+    "male": "weapon/blunt/club/",
+    "muscular": "weapon/blunt/club/",
+    "female": "weapon/blunt/club/",
+    "pregnant": "weapon/blunt/club/"
+  },
+  "layer_2": {
+    "custom_animation": "slash_reverse_oversize",
+    "zPos": 9,
+    "male": "weapon/blunt/club/background/",
+    "muscular": "weapon/blunt/club/background/",
+    "female": "weapon/blunt/club/background/",
+    "pregnant": "weapon/blunt/club/background/"
+  },
+  "variants": [
+    "club"
+  ]
+}

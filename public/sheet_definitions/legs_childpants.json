@@ -1,0 +1,19 @@
+{
+  "name": "Child pants",
+  "type_name": "legs",
+  "layer_1": {
+    "zPos": 20,
+    "child": "legs/pants/child/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "brown",
+    "darkblue",
+    "green",
+    "lightblue",
+    "maroon",
+    "red",
+    "white"
+  ]
+}

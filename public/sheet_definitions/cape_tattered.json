@@ -1,0 +1,46 @@
+{
+  "name": "Tattered",
+  "type_name": "cape",
+  "layer_1": {
+    "zPos": 85,
+    "male": "cape/tattered/female/",
+    "muscular": "cape/tattered/female/",
+    "teen": "cape/tattered/female/",
+    "female": "cape/tattered/female/",
+    "pregnant": "cape/tattered/female/"
+  },
+  "layer_2": {
+    "zPos": 5,
+    "male": "cape/tattered_behind/",
+    "muscular": "cape/tattered_behind/",
+    "teen": "cape/tattered_behind/",
+    "female": "cape/tattered_behind/",
+    "pregnant": "cape/tattered_behind/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

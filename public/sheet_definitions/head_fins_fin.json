@@ -1,0 +1,35 @@
+{
+  "name": "Fin",
+  "type_name": "fins",
+  "layer_1": {
+    "zPos": 125,
+    "male": "head/fins/fin/",
+    "muscular": "head/fins/fin/",
+    "female": "head/fins/fin/",
+    "pregnant": "head/fins/fin/",
+    "teen": "head/fins/fin/"
+  },
+  "variants": [
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white"
+  ]
+}

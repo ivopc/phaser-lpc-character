@@ -1,0 +1,36 @@
+{
+  "name": "Tricorne pirate captain",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/pirate/tricorne_captain_pirate_skull/male/",
+    "male": "hat/pirate/tricorne_captain_pirate_skull/male/",
+    "teen": "hat/pirate/tricorne_captain_pirate_skull/male/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

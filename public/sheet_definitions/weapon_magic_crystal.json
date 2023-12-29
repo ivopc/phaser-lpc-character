@@ -1,0 +1,39 @@
+{
+  "name": "Crystal",
+  "type_name": "weapon_magic_crystal",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/magic/crystal/",
+    "muscular": "weapon/magic/crystal/",
+    "female": "weapon/magic/crystal/",
+    "pregnant": "weapon/magic/crystal/"
+  },
+  "layer_2": {
+    "zPos": 9,
+    "male": "weapon/magic/crystal/universal_behind/",
+    "muscular": "weapon/magic/crystal/universal_behind/",
+    "female": "weapon/magic/crystal/universal_behind/",
+    "pregnant": "weapon/magic/crystal/universal_behind/"
+  },
+  "layer_3": {
+    "custom_animation": "thrust_oversize",
+    "zPos": 151,
+    "male": "weapon/magic/crystal/attack_thrust/",
+    "muscular": "weapon/magic/crystal/attack_thrust/",
+    "female": "weapon/magic/crystal/attack_thrust/",
+    "pregnant": "weapon/magic/crystal/attack_thrust/"
+  },
+  "layer_4": {
+    "custom_animation": "thrust_oversize",
+    "zPos": -1,
+    "male": "weapon/magic/crystal/attack_thrust/background/",
+    "muscular": "weapon/magic/crystal/attack_thrust/background/",
+    "female": "weapon/magic/crystal/attack_thrust/background/",
+    "pregnant": "weapon/magic/crystal/attack_thrust/background/"
+  },
+  "variants": [
+    "blue",
+    "red",
+    "green"
+  ]
+}

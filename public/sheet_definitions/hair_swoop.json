@@ -1,0 +1,40 @@
+{
+  "name": "Swoop",
+  "type_name": "hair",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/swoop/male/",
+    "muscular": "hair/swoop/male/",
+    "female": "hair/swoop/female/",
+    "pregnant": "hair/swoop/female/",
+    "teen": "hair/swoop/male/"
+  },
+  "variants": [
+    "blonde",
+    "ash",
+    "sandy",
+    "platinum",
+    "strawberry",
+    "redhead",
+    "ginger",
+    "carrot",
+    "chestnut",
+    "light brown",
+    "dark brown",
+    "black",
+    "raven",
+    "dark gray",
+    "gray",
+    "white",
+    "red",
+    "orange",
+    "gold",
+    "green",
+    "blue",
+    "navy",
+    "violet",
+    "purple",
+    "pink",
+    "rose"
+  ]
+}

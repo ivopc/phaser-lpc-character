@@ -1,0 +1,22 @@
+{
+  "name": "Round visor raised",
+  "type_name": "visor",
+  "layer_1": {
+    "zPos": 132,
+    "female": "hat/visor/round_raised/male/",
+    "pregnant": "hat/visor/round_raised/male/",
+    "male": "hat/visor/round_raised/male/",
+    "muscular": "hat/visor/round_raised/male/",
+    "teen": "hat/visor/round_raised/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

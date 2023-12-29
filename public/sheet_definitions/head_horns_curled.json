@@ -1,0 +1,15 @@
+{
+  "name": "Curled Horns",
+  "type_name": "horns",
+  "layer_1": {
+    "zPos": 125,
+    "male": "head/horns/horns_curled/",
+    "muscular": "head/horns/horns_curled/",
+    "female": "head/horns/horns_curled/",
+    "pregnant": "head/horns/horns_curled/",
+    "teen": "head/horns/horns_curled/"
+  },
+  "variants": [
+    "horns"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Ammo",
+  "type_name": "ammo",
+  "layer_1": {
+    "zPos": 150,
+    "male": "weapon/ranged/bow/arrow/",
+    "muscular": "weapon/ranged/bow/arrow/",
+    "female": "weapon/ranged/bow/arrow/",
+    "pregnant": "weapon/ranged/bow/arrow/",
+    "teen": "weapon/ranged/bow/arrow/"
+  },
+  "variants": [
+    "arrow"
+  ]
+}

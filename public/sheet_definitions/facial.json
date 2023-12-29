@@ -1,0 +1,20 @@
+{
+  "name": "Facial",
+  "type_name": "facial",
+  "layer_1": {
+    "zPos": 25,
+    "male": "facial/",
+    "muscular": "facial/",
+    "female": "facial/",
+    "pregnant": "facial/",
+    "teen": "facial/"
+  },
+  "variants": [
+    "glasses",
+    "mask dark",
+    "mask white",
+    "monocle",
+    "patch",
+    "sunglasses"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Short fin",
+  "type_name": "fins",
+  "layer_1": {
+    "zPos": 125,
+    "male": "head/fins/fin_short/",
+    "muscular": "head/fins/fin_short/",
+    "female": "head/fins/fin_short/",
+    "pregnant": "head/fins/fin_short/",
+    "teen": "head/fins/fin_short/"
+  },
+  "variants": [
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white"
+  ]
+}

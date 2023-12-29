@@ -1,0 +1,14 @@
+{
+  "name": "Staff",
+  "type_name": "weapon",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/magic/simple_staff/male/",
+    "muscular": "weapon/magic/simple_staff/male/",
+    "female": "weapon/magic/simple_staff/female/",
+    "pregnant": "weapon/magic/simple_staff/female/"
+  },
+  "variants": [
+    "simple staff"
+  ]
+}

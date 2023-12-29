@@ -1,0 +1,23 @@
+{
+  "name" : "Whip",
+  "type_name" : "weapon",
+  "layer_1": {
+    "zPos": 9,
+    "custom_animation": "tool_whip",
+    "male": "tools/whip/background/",
+    "muscular": "tools/whip/background/",
+    "female": "tools/whip/background/",
+    "pregnant": "tools/whip/background/"
+  },
+  "layer_2": {
+    "zPos": 150,
+    "custom_animation": "tool_whip",
+    "male": "tools/whip/",
+    "muscular": "tools/whip/",
+    "female": "tools/whip/",
+    "pregnant": "tools/whip/"
+  },
+  "variants": [
+    "whip"
+  ]
+}

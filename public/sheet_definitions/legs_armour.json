@@ -1,0 +1,20 @@
+{
+  "name": "Armour",
+  "type_name": "legs",
+  "layer_1": {
+    "zPos": 20,
+    "male": "legs/armour/plate/male/",
+    "female": "legs/armour/plate/female/",
+    "teen": "legs/armour/plate/teen/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

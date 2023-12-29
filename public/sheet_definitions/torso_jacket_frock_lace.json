@@ -1,0 +1,17 @@
+{
+  "name": "Frock coat lace",
+  "type_name": "jacket_trim",
+  "layer_1": {
+    "zPos": 58,
+    "male": "torso/jacket/trim/frock_lace/"
+  },
+  "variants": [
+    "bronze",
+    "gold",
+    "silver",
+    "red",
+    "blue",
+    "teal",
+    "yellow"
+  ]
+}

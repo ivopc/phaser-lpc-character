@@ -1,0 +1,22 @@
+{
+  "name": "Pointed helm",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 135,
+    "female": "hat/helmet/pointed/male/",
+    "pregnant": "hat/helmet/pointed/male/",
+    "male": "hat/helmet/pointed/male/",
+    "muscular": "hat/helmet/pointed/male/",
+    "teen": "hat/helmet/pointed/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

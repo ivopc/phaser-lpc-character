@@ -1,0 +1,34 @@
+{
+  "name": "Great",
+  "type_name": "weapon",
+  "preview_row": 17,
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/ranged/bow/great/",
+    "muscular": "weapon/ranged/bow/great/",
+    "female": "weapon/ranged/bow/great/",
+    "pregnant": "weapon/ranged/bow/great/",
+    "teen": "weapon/ranged/bow/great/"
+  },
+  "layer_2": {
+    "custom_animation": "walk_128",
+    "zPos": -1,
+    "male": "weapon/ranged/bow/great/walk/background/",
+    "muscular": "weapon/ranged/bow/great/walk/background/",
+    "female": "weapon/ranged/bow/great/walk/background/",
+    "pregnant": "weapon/ranged/bow/great/walk/background/",
+    "teen": "weapon/ranged/bow/great/walk/background/"
+  },
+  "layer_3": {
+    "custom_animation": "walk_128",
+    "zPos": 141,
+    "male": "weapon/ranged/bow/great/walk/foreground/",
+    "muscular": "weapon/ranged/bow/great/walk/foreground/",
+    "female": "weapon/ranged/bow/great/walk/foreground/",
+    "pregnant": "weapon/ranged/bow/great/walk/foreground/",
+    "teen": "weapon/ranged/bow/great/walk/foreground/"
+  },
+  "variants": [
+    "great"
+  ]
+}

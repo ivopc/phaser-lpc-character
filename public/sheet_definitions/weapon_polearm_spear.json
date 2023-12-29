@@ -1,0 +1,18 @@
+{
+  "name": "Spear",
+  "type_name": "weapon",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/polearm/spear/male/",
+    "muscular": "weapon/polearm/spear/male/",
+    "female": "weapon/polearm/spear/female/",
+    "pregnant": "weapon/polearm/spear/female/"
+  },
+  "variants": [
+    "spear",
+    "spear black",
+    "spear green",
+    "spear metal",
+    "spear purple"
+  ]
+}

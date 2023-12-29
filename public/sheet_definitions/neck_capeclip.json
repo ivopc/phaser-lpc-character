@@ -1,0 +1,38 @@
+{
+  "name": "Capeclip",
+  "type_name": "neck",
+  "layer_1": {
+    "zPos": 90,
+    "male": "neck/capeclip/male/",
+    "muscular": "neck/capeclip/male/",
+    "female": "neck/capeclip/female/",
+    "teen": "neck/capeclip/teen/",
+    "pregnant": "neck/capeclip/female/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

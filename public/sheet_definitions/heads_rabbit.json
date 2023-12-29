@@ -1,0 +1,37 @@
+{
+  "name": "Rabbit",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/rabbit/universal/",
+    "muscular": "head/heads/rabbit/universal/",
+    "female": "head/heads/rabbit/universal/",
+    "pregnant": "head/heads/rabbit/universal/",
+    "teen": "head/heads/rabbit/universal/"
+  },
+  "variants": [
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white",
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "zombie"
+  ],
+  "match_body_color": true
+}

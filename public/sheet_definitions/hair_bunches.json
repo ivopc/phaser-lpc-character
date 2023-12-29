@@ -1,0 +1,40 @@
+{
+  "name": "Bunches",
+  "type_name": "hair",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/bunches/male/",
+    "muscular": "hair/bunches/male/",
+    "female": "hair/bunches/female/",
+    "pregnant": "hair/bunches/female/",
+    "teen": "hair/bunches/male/"
+  },
+  "variants": [
+    "blonde",
+    "ash",
+    "sandy",
+    "platinum",
+    "strawberry",
+    "redhead",
+    "ginger",
+    "carrot",
+    "chestnut",
+    "light brown",
+    "dark brown",
+    "black",
+    "raven",
+    "dark gray",
+    "gray",
+    "white",
+    "red",
+    "orange",
+    "gold",
+    "green",
+    "blue",
+    "navy",
+    "violet",
+    "purple",
+    "pink",
+    "rose"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Horns",
+  "type_name": "accessory",
+  "layer_1": {
+    "zPos": 139,
+    "female": "hat/accessory/horns/fg/male/",
+    "pregnant": "hat/accessory/horns/fg/male/",
+    "male": "hat/accessory/horns/fg/male/",
+    "muscular": "hat/accessory/horns/fg/male/"
+  },
+  "layer_2": {
+    "zPos": 125,
+    "female": "hat/accessory/horns/bg/male/",
+    "pregnant": "hat/accessory/horns/bg/male/",
+    "male": "hat/accessory/horns/bg/male/",
+    "muscular": "hat/accessory/horns/bg/male/"
+  },
+  "variants": [
+    "horns_1",
+    "horns_2",
+    "horns_3"
+  ]
+}

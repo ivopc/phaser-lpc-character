@@ -1,0 +1,21 @@
+{
+  "name": "Bauldron",
+  "type_name": "bauldron",
+  "layer_1": {
+    "zPos": 65,
+    "male": "bauldron/male/",
+    "muscular": "bauldron/male/",
+    "teen": "bauldron/female/",
+    "female": "bauldron/female/",
+    "pregnant": "bauldron/female/"
+  },
+  "variants": [
+    "brown",
+    "charcoal",
+    "leather",
+    "slate",
+    "tan",
+    "walnut",
+    "white"
+  ]
+}

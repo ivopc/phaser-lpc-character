@@ -1,0 +1,15 @@
+{
+  "name": "Eye",
+  "type_name": "wound_eye",
+  "layer_1": {
+    "zPos": 115,
+    "male": "body/wound/",
+    "muscular": "body/wound/",
+    "female": "body/wound/",
+    "pregnant": "body/wound/",
+    "teen": "body/wound/"
+  },
+  "variants": [
+    "eye"
+  ]
+}

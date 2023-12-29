@@ -1,0 +1,17 @@
+{
+  "name": "Frock collar",
+  "type_name": "jacket_collar",
+  "layer_1": {
+    "zPos": 57,
+    "male": "torso/jacket/trim/frock_collar/"
+  },
+  "variants": [
+    "bronze",
+    "gold",
+    "silver",
+    "red",
+    "blue",
+    "teal",
+    "yellow"
+  ]
+}

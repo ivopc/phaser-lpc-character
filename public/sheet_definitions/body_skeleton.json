@@ -1,0 +1,13 @@
+{
+  "name": "Skeleton",
+  "type_name": "body",
+  "layer_1": {
+    "zPos": 10,
+    "male": "body/bodies/skeleton/universal/",
+    "female": "body/bodies/skeleton/universal/",
+    "teen": "body/bodies/skeleton/universal/"
+  },
+  "variants": [
+    "skeleton"
+  ]
+}

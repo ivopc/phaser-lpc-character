@@ -1,0 +1,19 @@
+{
+  "name": "Double Belt",
+  "type_name": "belt",
+  "layer_1": {
+    "zPos": 70,
+    "male": "torso/waist/belt_double/male/",
+    "female": "torso/waist/belt_double/female/",
+    "teen": "torso/waist/belt_double/male/"
+  },
+  "variants": [
+    "brown",
+    "charcoal",
+    "leather",
+    "slate",
+    "tan",
+    "walnut",
+    "white"
+  ]
+}

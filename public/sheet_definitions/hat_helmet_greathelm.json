@@ -1,0 +1,22 @@
+{
+  "name": "Greathelm",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/greathelm/male/",
+    "pregnant": "hat/helmet/greathelm/male/",
+    "male": "hat/helmet/greathelm/male/",
+    "muscular": "hat/helmet/greathelm/male/",
+    "teen": "hat/helmet/greathelm/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

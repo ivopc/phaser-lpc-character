@@ -1,0 +1,22 @@
+{
+  "name": "Boarman",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/boarman/universal/",
+    "muscular": "head/heads/boarman/universal/",
+    "female": "head/heads/boarman/universal/",
+    "pregnant": "head/heads/boarman/universal/",
+    "teen": "head/heads/boarman/universal/"
+  },
+  "variants": [
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white"
+  ],
+  "match_body_color": true
+}

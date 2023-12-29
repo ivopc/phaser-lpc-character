@@ -1,0 +1,22 @@
+{
+  "name": "Round visor",
+  "type_name": "visor",
+  "layer_1": {
+    "zPos": 132,
+    "female": "hat/visor/round/male/",
+    "pregnant": "hat/visor/round/male/",
+    "male": "hat/visor/round/male/",
+    "muscular": "hat/visor/round/male/",
+    "teen": "hat/visor/round/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

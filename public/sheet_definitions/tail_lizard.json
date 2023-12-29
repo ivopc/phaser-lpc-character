@@ -1,0 +1,43 @@
+{
+  "name": "Lizard tail",
+  "type_name": "tail",
+  "layer_1": {
+    "zPos": 85,
+    "male": "body/tail/lizard/fg/",
+    "muscular": "body/tail/lizard/fg/",
+    "female": "body/tail/lizard/fg/",
+    "pregnant": "body/tail/lizard/fg/"
+  },
+  "layer_2": {
+    "zPos": 5,
+    "male": "body/tail/lizard/bg/",
+    "muscular": "body/tail/lizard/bg/",
+    "female": "body/tail/lizard/bg/",
+    "pregnant": "body/tail/lizard/bg/"
+  },
+  "variants": [
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white",
+    "zombie"
+  ],
+  "match_body_color": true
+}

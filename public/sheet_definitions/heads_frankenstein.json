@@ -1,0 +1,37 @@
+{
+  "name": "Frankenstein",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/frankenstein/universal/",
+    "muscular": "head/heads/frankenstein/universal/",
+    "female": "head/heads/frankenstein/universal/",
+    "pregnant": "head/heads/frankenstein/universal/",
+    "teen": "head/heads/frankenstein/universal/"
+  },
+  "variants": [
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "zombie",
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white"
+  ],
+  "match_body_color": true
+}

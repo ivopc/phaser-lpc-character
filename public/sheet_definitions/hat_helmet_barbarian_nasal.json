@@ -1,0 +1,22 @@
+{
+  "name": "Barbarian nasal",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/barbarian_nasal/male/",
+    "pregnant": "hat/helmet/barbarian_nasal/male/",
+    "male": "hat/helmet/barbarian_nasal/male/",
+    "muscular": "hat/helmet/barbarian_nasal/male/",
+    "teen": "hat/helmet/barbarian_nasal/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

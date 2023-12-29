@@ -1,0 +1,37 @@
+{
+  "name": "Loop staff",
+  "type_name": "weapon",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/magic/loop/",
+    "muscular": "weapon/magic/loop/",
+    "female": "weapon/magic/loop/",
+    "pregnant": "weapon/magic/loop/"
+  },
+  "layer_2": {
+    "zPos": 9,
+    "male": "weapon/magic/loop/universal_behind/",
+    "muscular": "weapon/magic/loop/universal_behind/",
+    "female": "weapon/magic/loop/universal_behind/",
+    "pregnant": "weapon/magic/loop/universal_behind/"
+  },
+  "layer_3": {
+    "custom_animation": "thrust_oversize",
+    "zPos": -2,
+    "male": "weapon/magic/loop/attack_thrust/background/",
+    "muscular": "weapon/magic/loop/attack_thrust/background/",
+    "female": "weapon/magic/loop/attack_thrust/background/",
+    "pregnant": "weapon/magic/loop/attack_thrust/background/"
+  },
+  "layer_4": {
+    "custom_animation": "thrust_oversize",
+    "zPos": 150,
+    "male": "weapon/magic/loop/attack_thrust/",
+    "muscular": "weapon/magic/loop/attack_thrust/",
+    "female": "weapon/magic/loop/attack_thrust/",
+    "pregnant": "weapon/magic/loop/attack_thrust/"
+  },
+  "variants": [
+    "loop"
+  ]
+}

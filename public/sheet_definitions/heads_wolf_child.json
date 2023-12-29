@@ -1,0 +1,18 @@
+{
+  "name": "Wolf child",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "child": "head/heads/wolf_child/universal/"
+  },
+  "variants": [
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white"
+  ],
+  "match_body_color": true
+}

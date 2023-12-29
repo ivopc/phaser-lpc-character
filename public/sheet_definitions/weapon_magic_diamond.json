@@ -1,0 +1,37 @@
+{
+  "name": "Diamond staff",
+  "type_name": "weapon",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/magic/diamond/",
+    "muscular": "weapon/magic/diamond/",
+    "female": "weapon/magic/diamond/",
+    "pregnant": "weapon/magic/diamond/"
+  },
+  "layer_2": {
+    "zPos": 9,
+    "male": "weapon/magic/diamond/universal_behind/",
+    "muscular": "weapon/magic/diamond/universal_behind/",
+    "female": "weapon/magic/diamond/universal_behind/",
+    "pregnant": "weapon/magic/diamond/universal_behind/"
+  },
+  "layer_3": {
+    "custom_animation": "thrust_oversize",
+    "zPos": 150,
+    "male": "weapon/magic/diamond/attack_thrust/",
+    "muscular": "weapon/magic/diamond/attack_thrust/",
+    "female": "weapon/magic/diamond/attack_thrust/",
+    "pregnant": "weapon/magic/diamond/attack_thrust/"
+  },
+  "layer_4": {
+    "custom_animation": "thrust_oversize",
+    "zPos": -1,
+    "male": "weapon/magic/diamond/attack_thrust/background/",
+    "muscular": "weapon/magic/diamond/attack_thrust/background/",
+    "female": "weapon/magic/diamond/attack_thrust/background/",
+    "pregnant": "weapon/magic/diamond/attack_thrust/background/"
+  },
+  "variants": [
+    "diamond"
+  ]
+}

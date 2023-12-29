@@ -1,0 +1,17 @@
+{
+  "name": "Frock coat buttons",
+  "type_name": "jacket_trim",
+  "layer_1": {
+    "zPos": 58,
+    "male": "torso/jacket/trim/frock_buttons/"
+  },
+  "variants": [
+    "bronze",
+    "gold",
+    "silver",
+    "red",
+    "blue",
+    "teal",
+    "yellow"
+  ]
+}

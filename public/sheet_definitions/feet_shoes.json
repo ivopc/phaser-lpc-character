@@ -1,0 +1,37 @@
+{
+  "name": "Shoes",
+  "type_name": "shoes",
+  "layer_1": {
+    "zPos": 15,
+    "female": "feet/shoes/female/",
+    "pregnant": "feet/shoes/female/",
+    "male": "feet/shoes/male/",
+    "muscular": "feet/shoes/male/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

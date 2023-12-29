@@ -1,0 +1,31 @@
+{
+  "name": "Shield",
+  "type_name": "shield",
+  "layer_1": {
+    "zPos": 110,
+    "male": "shield/male/",
+    "muscular": "shield/male/",
+    "female": "shield/female/",
+    "pregnant": "shield/female/"
+  },
+  "variants": [
+    "crusader",
+    "spartan",
+    "round black",
+    "round brown",
+    "round gold",
+    "round green",
+    "round silver",
+    "round yellow",
+    "kite blue blue",
+    "kite blue gray",
+    "kite gray blue",
+    "kite gray gray",
+    "kite gray green",
+    "kite gray orange",
+    "kite gray",
+    "kite green gray",
+    "kite orange",
+    "kite red gray"
+  ]
+}

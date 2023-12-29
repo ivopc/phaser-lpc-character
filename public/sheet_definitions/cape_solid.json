@@ -1,0 +1,44 @@
+{
+  "name": "Solid",
+  "type_name": "cape",
+  "layer_1": {
+    "zPos": 85,
+    "male": "cape/solid/female/",
+    "muscular": "cape/solid/female/",
+    "female": "cape/solid/female/",
+    "pregnant": "cape/solid/female/"
+  },
+  "layer_2": {
+    "zPos": 5,
+    "male": "cape/solid_behind/",
+    "muscular": "cape/solid_behind/",
+    "female": "cape/solid_behind/",
+    "pregnant": "cape/solid_behind/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Barbarian Viking",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/barbarian_viking/male/",
+    "pregnant": "hat/helmet/barbarian_viking/male/",
+    "male": "hat/helmet/barbarian_viking/male/",
+    "muscular": "hat/helmet/barbarian_viking/male/",
+    "teen": "hat/helmet/barbarian_viking/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

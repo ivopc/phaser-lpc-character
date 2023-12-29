@@ -1,0 +1,39 @@
+{
+  "name": "Katana",
+  "type_name": "weapon",
+  "layer_1": {
+    "custom_animation": "walk_128",
+    "zPos": 140,
+    "male": "weapon/sword/katana/walk/",
+    "muscular": "weapon/sword/katana/walk/",
+    "female": "weapon/sword/katana/walk/",
+    "pregnant": "weapon/sword/katana/walk/"
+  },
+  "layer_2": {
+    "custom_animation": "walk_128",
+    "zPos": 9,
+    "male": "weapon/sword/katana/walk/behind/",
+    "muscular": "weapon/sword/katana/walk/behind/",
+    "female": "weapon/sword/katana/walk/behind/",
+    "pregnant": "weapon/sword/katana/walk/behind/"
+  },
+  "layer_3": {
+    "custom_animation": "slash_128",
+    "zPos": 140,
+    "male": "weapon/sword/katana/slash/",
+    "muscular": "weapon/sword/katana/slash/",
+    "female": "weapon/sword/katana/slash/",
+    "pregnant": "weapon/sword/katana/slash/"
+  },
+  "layer_4": {
+    "custom_animation": "slash_128",
+    "zPos": 9,
+    "male": "weapon/sword/katana/slash/behind/",
+    "muscular": "weapon/sword/katana/slash/behind/",
+    "female": "weapon/sword/katana/slash/behind/",
+    "pregnant": "weapon/sword/katana/slash/behind/"
+  },
+  "variants": [
+    "katana"
+  ]
+}

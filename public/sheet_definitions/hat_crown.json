@@ -1,0 +1,18 @@
+{
+  "name": "Crown",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "male": "hat/crown/",
+    "female": "hat/crown/",
+    "muscular": "hat/crown/",
+    "pregnant": "hat/crown/",
+    "teen": "hat/crown/"
+  },
+  "variants": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ]
+}

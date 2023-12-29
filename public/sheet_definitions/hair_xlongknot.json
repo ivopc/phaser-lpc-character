@@ -1,0 +1,43 @@
+{
+  "name": "Extra longknot",
+  "type_name": "hair",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/xlongknot/male/",
+    "muscular": "hair/xlongknot/male/",
+    "female": "hair/xlongknot/female/",
+    "pregnant": "hair/xlongknot/female/",
+    "teen": "hair/xlongknot/male/"
+  },
+  "variants": [
+    "black",
+    "blonde",
+    "blonde 2",
+    "blue",
+    "blue 2",
+    "brown",
+    "brown 2",
+    "brunette",
+    "brunette 2",
+    "dark blonde",
+    "gold",
+    "gray",
+    "gray 2",
+    "green",
+    "green 2",
+    "light blonde",
+    "light blonde 2",
+    "pink",
+    "pink 2",
+    "purple",
+    "raven",
+    "raven 2",
+    "redhead",
+    "redhead 2",
+    "rubyred",
+    "white blonde",
+    "white blonde 2",
+    "white cyan",
+    "white"
+  ]
+}

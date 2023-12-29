@@ -1,0 +1,37 @@
+{
+  "name": "Big ears",
+  "type_name": "ears",
+  "layer_1": {
+    "zPos": 105,
+    "male": "head/ears/big/",
+    "muscular": "head/ears/big/",
+    "female": "head/ears/big/",
+    "teen": "head/ears/big/",
+    "pregnant": "head/ears/big/"
+  },
+  "variants": [
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white",
+    "zombie"
+  ],
+  "match_body_color": true
+}

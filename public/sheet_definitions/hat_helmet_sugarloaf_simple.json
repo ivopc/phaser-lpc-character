@@ -1,0 +1,22 @@
+{
+  "name": "Simple sugarloaf helm",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/sugarloaf_simple/male/",
+    "pregnant": "hat/helmet/sugarloaf_simple/male/",
+    "male": "hat/helmet/sugarloaf_simple/male/",
+    "muscular": "hat/helmet/sugarloaf_simple/male/",
+    "teen": "hat/helmet/sugarloaf_simple/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

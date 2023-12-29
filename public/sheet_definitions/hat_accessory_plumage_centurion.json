@@ -1,0 +1,38 @@
+{
+  "name": "Centurion Plumage",
+  "type_name": "accessory",
+  "layer_1": {
+    "zPos": 139,
+    "female": "hat/accessory/plumage_centurion/male/",
+    "pregnant": "hat/accessory/plumage_centurion/male/",
+    "male": "hat/accessory/plumage_centurion/male/",
+    "muscular": "hat/accessory/plumage_centurion/male/",
+    "teen": "hat/accessory/plumage_centurion/male/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

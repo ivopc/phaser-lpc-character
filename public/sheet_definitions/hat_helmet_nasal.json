@@ -1,0 +1,22 @@
+{
+  "name": "Nasal helm",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/nasal/male/",
+    "pregnant": "hat/helmet/nasal/male/",
+    "male": "hat/helmet/nasal/male/",
+    "muscular": "hat/helmet/nasal/male/",
+    "teen": "hat/helmet/nasal/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

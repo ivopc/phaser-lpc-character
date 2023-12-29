@@ -1,0 +1,37 @@
+{
+  "name": "Sheep",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/sheep/universal/",
+    "muscular": "head/heads/sheep/universal/",
+    "female": "head/heads/sheep/universal/",
+    "pregnant": "head/heads/sheep/universal/",
+    "teen": "head/heads/sheep/universal/"
+  },
+  "variants": [
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white",
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "zombie"
+  ],
+  "match_body_color": true
+}

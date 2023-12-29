@@ -1,0 +1,22 @@
+{
+  "name": "Barbuta",
+  "type_name": "hat",
+  "layer_1": {
+    "zPos": 130,
+    "female": "hat/helmet/barbuta/male/",
+    "pregnant": "hat/helmet/barbuta/male/",
+    "male": "hat/helmet/barbuta/male/",
+    "muscular": "hat/helmet/barbuta/male/",
+    "teen": "hat/helmet/barbuta/male/"
+  },
+  "variants": [
+    "steel",
+    "iron",
+    "ceramic",
+    "brass",
+    "copper",
+    "bronze",
+    "silver",
+    "gold"
+  ]
+}

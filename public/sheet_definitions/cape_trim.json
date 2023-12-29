@@ -1,0 +1,35 @@
+{
+  "name": "Cape Trim",
+  "type_name": "cape_trim",
+  "layer_1": {
+    "zPos": 90,
+    "female": "cape/trim/female/",
+    "pregnant": "cape/trim/female/"
+  },
+  "variants": [
+    "black",
+    "blue",
+    "bluegray",
+    "brown",
+    "charcoal",
+    "forest",
+    "gray",
+    "green",
+    "lavender",
+    "leather",
+    "maroon",
+    "navy",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "rose",
+    "sky",
+    "slate",
+    "tan",
+    "teal",
+    "walnut",
+    "white",
+    "yellow"
+  ]
+}

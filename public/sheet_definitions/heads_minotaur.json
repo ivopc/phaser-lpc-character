@@ -1,0 +1,37 @@
+{
+  "name": "Minotaur",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/minotaur/universal/",
+    "muscular": "head/heads/minotaur/universal/",
+    "female": "head/heads/minotaur/universal/",
+    "pregnant": "head/heads/minotaur/universal/",
+    "teen": "head/heads/minotaur/universal/"
+  },
+  "variants": [
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white",
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "zombie"
+  ],
+  "match_body_color": true
+}

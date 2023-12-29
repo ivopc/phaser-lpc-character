@@ -1,0 +1,23 @@
+{
+  "name" : "Rod",
+  "type_name" : "weapon",
+  "layer_1": {
+    "zPos": 9,
+    "custom_animation": "tool_rod",
+    "male": "tools/rod/background/",
+    "muscular": "tools/rod/background/",
+    "female": "tools/rod/background/",
+    "pregnant": "tools/rod/background/"
+  },
+  "layer_2": {
+    "zPos": 150,
+    "custom_animation": "tool_rod",
+    "male": "tools/rod/foreground/",
+    "muscular": "tools/rod/foreground/",
+    "female": "tools/rod/foreground/",
+    "pregnant": "tools/rod/foreground/"
+  },
+  "variants": [
+    "rod"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Rapier",
+  "type_name": "weapon",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/sword/rapier/",
+    "muscular": "weapon/sword/rapier/",
+    "female": "weapon/sword/rapier/",
+    "pregnant": "weapon/sword/rapier/"
+  },
+  "layer_2": {
+    "zPos": 9,
+    "male": "weapon/sword/rapier/universal_behind/",
+    "muscular": "weapon/sword/rapier/universal_behind/",
+    "female": "weapon/sword/rapier/universal_behind/",
+    "pregnant": "weapon/sword/rapier/universal_behind/"
+  },
+  "layer_3": {
+    "zPos": 8,
+    "custom_animation": "slash_oversize",
+    "male": "weapon/sword/rapier/attack_slash/behind/",
+    "muscular": "weapon/sword/rapier/attack_slash/behind/",
+    "female": "weapon/sword/rapier/attack_slash/behind/",
+    "pregnant": "weapon/sword/rapier/attack_slash/behind/"
+  },
+  "layer_4": {
+    "zPos": 150,
+    "custom_animation": "slash_oversize",
+    "male": "weapon/sword/rapier/attack_slash/",
+    "muscular": "weapon/sword/rapier/attack_slash/",
+    "female": "weapon/sword/rapier/attack_slash/",
+    "pregnant": "weapon/sword/rapier/attack_slash/"
+  },
+  "variants": [
+    "rapier"
+  ]
+}

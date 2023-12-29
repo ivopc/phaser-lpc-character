@@ -1,0 +1,37 @@
+{
+  "name": "Gnarled staff",
+  "type_name": "weapon",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/magic/gnarled/",
+    "muscular": "weapon/magic/gnarled/",
+    "female": "weapon/magic/gnarled/",
+    "pregnant": "weapon/magic/gnarled/"
+  },
+  "layer_2": {
+    "zPos": 9,
+    "male": "weapon/magic/gnarled/universal_behind/",
+    "muscular": "weapon/magic/gnarled/universal_behind/",
+    "female": "weapon/magic/gnarled/universal_behind/",
+    "pregnant": "weapon/magic/gnarled/universal_behind/"
+  },
+  "layer_3": {
+    "custom_animation": "thrust_oversize",
+    "zPos": -1,
+    "male": "weapon/magic/gnarled/attack_thrust/background/",
+    "muscular": "weapon/magic/gnarled/attack_thrust/background/",
+    "female": "weapon/magic/gnarled/attack_thrust/background/",
+    "pregnant": "weapon/magic/gnarled/attack_thrust/background/"
+  },
+  "layer_4": {
+    "custom_animation": "thrust_oversize",
+    "zPos": 150,
+    "male": "weapon/magic/gnarled/attack_thrust/",
+    "muscular": "weapon/magic/gnarled/attack_thrust/",
+    "female": "weapon/magic/gnarled/attack_thrust/",
+    "pregnant": "weapon/magic/gnarled/attack_thrust/"
+  },
+  "variants": [
+    "gnarled"
+  ]
+}

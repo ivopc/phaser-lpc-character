@@ -1,0 +1,37 @@
+{
+  "name": "Human female elderly",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/human_female_elderly/universal/",
+    "muscular": "head/heads/human_female_elderly/universal/",
+    "female": "head/heads/human_female_elderly/universal/",
+    "pregnant": "head/heads/human_female_elderly/universal/",
+    "teen": "head/heads/human_female_elderly/universal/"
+  },
+  "variants": [
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "zombie",
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white"
+  ],
+  "match_body_color": true
+}

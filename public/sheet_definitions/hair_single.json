@@ -1,0 +1,40 @@
+{
+  "name": "Single",
+  "type_name": "hair",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/single/male/",
+    "muscular": "hair/single/male/",
+    "female": "hair/single/female/",
+    "pregnant": "hair/single/female/",
+    "teen": "hair/single/male/"
+  },
+  "variants": [
+    "blonde",
+    "ash",
+    "sandy",
+    "platinum",
+    "strawberry",
+    "redhead",
+    "ginger",
+    "carrot",
+    "chestnut",
+    "light brown",
+    "dark brown",
+    "black",
+    "raven",
+    "dark gray",
+    "gray",
+    "white",
+    "red",
+    "orange",
+    "gold",
+    "green",
+    "blue",
+    "navy",
+    "violet",
+    "purple",
+    "pink",
+    "rose"
+  ]
+}

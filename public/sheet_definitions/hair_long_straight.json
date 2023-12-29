@@ -1,0 +1,25 @@
+{
+  "name": "Long straight",
+  "type_name": "hair",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/long_straight/male/",
+    "muscular": "hair/long_straight/male/",
+    "female": "hair/long_straight/female/",
+    "pregnant": "hair/long_straight/female/",
+    "teen": "hair/long_straight/male/"
+  },
+  "variants": [
+    "black",
+    "blonde",
+    "blue",
+    "brown",
+    "green",
+    "lightblonde",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "white"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Slingshot",
+  "type_name": "weapon",
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/ranged/slingshot/",
+    "muscular": "weapon/ranged/slingshot/",
+    "female": "weapon/ranged/slingshot/",
+    "pregnant": "weapon/ranged/slingshot/"
+  },
+  "layer_2": {
+    "zPos": 9,
+    "male": "weapon/ranged/slingshot/behind/",
+    "muscular": "weapon/ranged/slingshot/behind/",
+    "female": "weapon/ranged/slingshot/behind/",
+    "pregnant": "weapon/ranged/slingshot/behind/"
+  },
+  "variants": [
+    "slingshot"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Wartotaur",
+  "type_name": "head",
+  "layer_1": {
+    "zPos": 100,
+    "male": "head/heads/wartotaur/universal/",
+    "muscular": "head/heads/wartotaur/universal/",
+    "female": "head/heads/wartotaur/universal/",
+    "pregnant": "head/heads/wartotaur/universal/",
+    "teen": "head/heads/wartotaur/universal/"
+  },
+  "variants": [
+    "fur_black",
+    "fur_brown",
+    "fur_tan",
+    "fur_copper",
+    "fur_gold",
+    "fur_grey",
+    "fur_white",
+    "light",
+    "amber",
+    "olive",
+    "taupe",
+    "bronze",
+    "brown",
+    "black",
+    "lavender",
+    "blue",
+    "zombie_green",
+    "green",
+    "pale_green",
+    "bright_green",
+    "dark_green",
+    "zombie"    
+  ],
+  "match_body_color": true
+}
