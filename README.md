@@ -1,11 +1,13 @@
 # Phaser 3 Universal LPC Character
 Character Spritesheet based on Universal-LPC-Spritesheet for Phaser 3.
+It will be provided as `Phaser.GameObjects.Sprite`, `Phaser.Physics.Arcade.Sprite` and `Phaser.Physics.Matter.Sprite` GameObjects. Also the animators, input movement handling and the entire spritesheet character variations will be included as a TypeScript Interfaces.
+
+### Licensing and Attribution (Credits)
+
 This is based in original [Universal LPC Spritesheet Character Generator](https://github.com/Gaurav0/Universal-LPC-Spritesheet-Character-Generator) and [sanderfrenken's LPC Spritesheet Character Generator](https://github.com/sanderfrenken/Universal-LPC-Spritesheet-Character-Generator) using the awesome [LPC](https://lpc.opengameart.org/) game art assets.
 
 The Liberated Pixel Effort is a collaborative effort from a number of different great artists who helped produce sprites for the project.
 **If you wish to use LPC sprites in your project, you will need to credit everyone who helped contribute to the LPC sprites you are using.** See below for how to do this.
-
-### Licensing and Attribution (Credits)
 
 All art distributed with this project (all images in the `spritesheets` subdirectory) is licensed under the [GNU GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.html) ([text](gpl-3_0.txt)) and/or [Creative Commons Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/) ([text](cc-by-sa-3_0.txt)) license(s). Some art may be available under other licenses too.
 
