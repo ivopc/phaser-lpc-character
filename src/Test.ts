@@ -1,3 +1,10 @@
 import Phaser from "phaser";
 
-export default class extends Phaser.Scene {};
+import CharacterLPC from "./prefabs/CharacterLPC";
+
+export default class extends Phaser.Scene {
+    create () {
+        console.log("lol");
+        
+    }
+};
