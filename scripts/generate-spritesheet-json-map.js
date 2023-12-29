@@ -3,8 +3,6 @@ import fs from 'fs';
 const numberOfMaxLayers = 9;
 const possibleLayers = [ ... Array(numberOfMaxLayers)].map((_, i) => ++i);
 
-const c = {};
-
 fs.writeFileSync(`public/spritesheets/spritesheet-map.json`, JSON.stringify(fs.readdirSync('public/sheet_definitions')
     .filter(file => file.includes('.json'))
     .map(file => {
@@ -17,10 +15,6 @@ fs.writeFileSync(`public/spritesheets/spritesheet-map.json`, JSON.stringify(fs.r
         Object.entries(data)
           .filter(([key, value]) => !key.includes("layer_"))
           .forEach(([key, value]) => newData[key] = value);
-        
-        Object.keys(newData).forEach(key => c[key] = typeof c[key]);
         return { ... newData, ... { layers }};
     })
 , null, 4));
-
-console.log(c);
