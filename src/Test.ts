@@ -1,6 +1,7 @@
 import Phaser from "phaser";
 
 import CharacterLPC from "./prefabs/CharacterLPC";
+import { ISpritesheetMap } from "./interfaces/SpritesheetMap";
 
 export default class extends Phaser.Scene {
     preload () {
@@ -8,11 +9,15 @@ export default class extends Phaser.Scene {
     }
 
     create () {
-        new CharacterLPC(this, 500, 350).loadAssets("female", "lavender");
-        new CharacterLPC(this, 150, 400).loadAssets("male", "light");
-        new CharacterLPC(this, 700, 300).loadAssets("muscular", "zombie_green");
-        new CharacterLPC(this, 800, 600).loadAssets("male", "amber");
-        new CharacterLPC(this, 300, 100).loadAssets("pregnant", "bright_green");
-        new CharacterLPC(this, 250, 700).loadAssets("teen", "olive");
+        const spritesheetMap = (this.cache.json.get("spritesheet-map") as ISpritesheetMap[]).find(spritesheetMap => spritesheetMap.name === "Body color") as ISpritesheetMap;
+        const bodyTypes = ["male", "muscular", "female", "child", "teen", "pregnant", "skeleton", "zombie"];
+        [... Array(200)].forEach(() => {
+            const x = Phaser.Math.Between(0, this.cameras.main.width);
+            const y = Phaser.Math.Between(0, this.cameras.main.height);
+            new CharacterLPC(this, x, y).setScale(1.5).loadAssets(
+                bodyTypes[Math.floor(Math.random() * bodyTypes.length)] as any, 
+                spritesheetMap.variants[Math.floor(Math.random() * spritesheetMap.variants.length)]
+            );
+        });
     }
 };
