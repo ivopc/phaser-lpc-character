@@ -4,7 +4,7 @@ import { ISpritesheetMap, BodyTypes } from "../interfaces/SpritesheetMap";
 
 /**
  * size per frame (width and height) = 64 pixels
- * each col have 13 frames
+ * each column have 13 frames
  */
 
 
@@ -19,7 +19,8 @@ enum Animation {
 const animLength = 8;
 const universalFrameSize = 64;
 const columns = 13;
-const anim = Animation.WalkDown;
+
+const directions = [Animation.WalkDown, Animation.WalkUp, Animation.WalkRight, Animation.WalkLeft];
 
 export default class CharacterLPC extends Phaser.GameObjects.Sprite {
     constructor (scene: Phaser.Scene, x: number, y: number) {
@@ -27,9 +28,10 @@ export default class CharacterLPC extends Phaser.GameObjects.Sprite {
     }
 
     async loadAssets (bodyType: BodyTypes, variant: string) {
+        const anim = directions[Math.floor(Math.random() * directions.length)]; 
         const spritesheetMaps = this.scene.cache.json.get("spritesheet-map") as ISpritesheetMap[];
         const spritesheetMap = spritesheetMaps.find(spritesheetMap => spritesheetMap.name === "Body color");
-        this.scene.load.spritesheet(`lpc-character-${bodyType}-${variant}-${anim}`, "/spritesheets/" + spritesheetMap?.layers[0][bodyType] + variant + ".png", { frameWidth: universalFrameSize, frameHeight: universalFrameSize });
+        this.scene.load.spritesheet(`lpc-character-${bodyType}-${variant}-${anim}`, "spritesheets/" + spritesheetMap?.layers[0][bodyType] + variant + ".png", { frameWidth: universalFrameSize, frameHeight: universalFrameSize });
         this.scene.load.start();
         await once(this.scene, `filecomplete-spritesheet-lpc-character-${bodyType}-${variant}-${anim}`);
         this.setTexture(`lpc-character-${bodyType}-${variant}-${anim}`);
