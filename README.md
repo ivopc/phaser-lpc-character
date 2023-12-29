@@ -1,6 +1,7 @@
 # Phaser 3 Universal LPC Character
 Character Spritesheet based on Universal-LPC-Spritesheet for Phaser 3.
-It will be provided as `Phaser.GameObjects.Sprite`, `Phaser.Physics.Arcade.Sprite` and `Phaser.Physics.Matter.Sprite` GameObjects. Also the animators, input movement handling and the entire spritesheet character variations will be included as a TypeScript Interfaces.
+
+It is provided as `Phaser.GameObjects.Sprite`, `Phaser.Physics.Arcade.Sprite` and `Phaser.Physics.Matter.Sprite` GameObjects. Also the animators, input behaviors and the entire spritesheet character variations will be included as a TypeScript Interfaces and methods handling.
 
 ### Licensing and Attribution (Credits)
 
