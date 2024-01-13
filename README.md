@@ -10,23 +10,22 @@ It is provided as `Phaser.GameObjects.Sprite`, `Phaser.Physics.Arcade.Sprite` an
 ``` bash
 # install dependencies
 npm i
-or
+# or
 yarn
 
 # start
 npm run dev
-or
+# or
 yarn dev
 
 # build
 npm run build
-or
+# or
 yarn build
-
 
 # generate characters spritesheet json map
 npm run generate-spritesheet-map
-or
+# or
 yarn generate-spritesheet-map
 ```
 
