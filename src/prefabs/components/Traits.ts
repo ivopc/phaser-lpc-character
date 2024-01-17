@@ -1,4 +1,5 @@
-import Phaser from "phaser";
+
+/*import Phaser from "phaser";
 
 import { ISpritesheetMap, BodyTypes, CharacterTraitsType, WalkAnimation, ANIMATION_FIRST_FRAME } from "../../interfaces/SpritesheetMap";
 import CharacterLPC from "../CharacterLPC";
@@ -29,7 +30,7 @@ export default class Traits extends Phaser.Events.EventEmitter {
         this.variant = params.variant;
     }
 
-    create (trait: CharacterTraitsType) {
+    async create (trait: CharacterTraitsType) {
         const anim = directions[Math.floor(Math.random() * directions.length)]; 
         const spritesheetMaps = this.scene.cache.json.get("spritesheet-map") as ISpritesheetMap[];
         const spritesheetMap = spritesheetMaps.find(spritesheetMap => spritesheetMap.name === "Body color");
@@ -40,15 +41,15 @@ export default class Traits extends Phaser.Events.EventEmitter {
         this.parent.add(this.get(CharacterTraitsType.Body));
         //this.setTexture(`lpc-character-${bodyType}-${variant}-${anim}`);
         const base = this.getRow(anim, ANIMATION_FIRST_FRAME).name;
-        this..get(CharacterTraitsType.Body).setFrame(base);
+        this.get(CharacterTraitsType.Body).setFrame(base);
         this.scene.anims.create({
-            key: `${bodyType}-${variant}-${anim}`,
+            key: `${this.bodyType}-${this.variant}-${anim}`,
             frames: this.scene.anims.generateFrameNumbers(`lpc-character-${this.bodyType}-${this.variant}-${anim}`, { frames: [ ... Array(WalkAnimation.Frames)].map((_, num) => base + (num + 1)) }),
             repeat: -1,
             frameRate: WalkAnimation.FrameRate
         });
         this.get(CharacterTraitsType.Body).play(`${this.bodyType}-${this.variant}-${anim}`);
-        this.scene.add.existing(this);
+        this.scene.add.existing(this as any);
     }
 
     async load () {}
@@ -57,12 +58,13 @@ export default class Traits extends Phaser.Events.EventEmitter {
         return this.map.get(trait) as Phaser.GameObjects.Sprite ;
     }
 
-    getRow(row: number, col: number): any {
-        const position = (row - 1) * columns + (col - 1);
-        return (this.scene.textures.getFrame(this.traits.get(CharacterTraitsType.Body).texture.key).texture.frames as any)[position];
-    }
+    //getRow(row: number, col: number): any {
+        //const position = (row - 1) * columns + (col - 1);
+        //@ts-ignore
+        //return (this.scene.textures.getFrame(this.traits.get(CharacterTraitsType.Body).texture.key).texture.frames as any)[position];
+    //}
 };
 
 async function once (scene: Phaser.Scene, event: string) {
     return new Promise(resolve => scene.load.once(event, resolve));
-};
+};*/

@@ -24,23 +24,25 @@ export default class CharacterLPC extends Phaser.GameObjects.Container {
         this.scene.load.start();
         await once(this.scene, `filecomplete-spritesheet-lpc-character-${bodyType}-${variant}-${anim}`);
         this.traits.set(CharacterTraitsType.Body, this.scene.add.sprite(0, 0, `lpc-character-${bodyType}-${variant}-${anim}`));
-        this.add(this.traits.get(CharacterTraitsType.Body));
+        this.add(this.traits.get(CharacterTraitsType.Body) as any);
         //this.setTexture(`lpc-character-${bodyType}-${variant}-${anim}`);
         const base = this.getRow(anim, ANIMATION_FIRST_FRAME).name;
-        this.traits.get(CharacterTraitsType.Body).setFrame(base);
+        this.traits.get(CharacterTraitsType.Body)?.setFrame(base);
         this.scene.anims.create({
             key: `${bodyType}-${variant}-${anim}`,
             frames: this.scene.anims.generateFrameNumbers(`lpc-character-${bodyType}-${variant}-${anim}`, { frames: [ ... Array(WalkAnimation.Frames)].map((_, num) => base + (num + 1)) }),
             repeat: -1,
             frameRate: WalkAnimation.FrameRate
         });
-        this.traits.get(CharacterTraitsType.Body).play(`${bodyType}-${variant}-${anim}`);
+
+        this.traits.get(CharacterTraitsType.Body)?.play(`${bodyType}-${variant}-${anim}`);
         this.scene.add.existing(this);
     }
 
     getRow(row: number, col: number): any {
         const position = (row - 1) * columns + (col - 1);
-        return (this.scene.textures.getFrame(this.traits.get(CharacterTraitsType.Body).texture.key).texture.frames as any)[position];
+        //@ts-ignore
+        return (this.scene.textures.getFrame(this.traits.get(CharacterTraitsType.Body)?.texture.key).texture.frames as any)[position];
     }
 };
 

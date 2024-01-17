@@ -24,6 +24,7 @@ export default class CharacterLPC extends Phaser.GameObjects.Container {
     async loadAssets () {
         const anim = directions[Math.floor(Math.random() * directions.length)]; 
         this.traits.set(CharacterTraitsType.Body, this.scene.add.sprite(0, 0, `lpc-character-${this.bodyType}-${this.variant}-${anim}`));
+        //@ts-ignore
         this.add(this.traits.get(CharacterTraitsType.Body));
         await this.load();
         this.facing = anim;
@@ -59,6 +60,7 @@ export default class CharacterLPC extends Phaser.GameObjects.Container {
     }
 
     set facing (direction: WalkAnimation) {
+        //@ts-ignore
         this.traits.get(CharacterTraitsType.Body)
             .setTexture(`lpc-character-${this.bodyType}-${this.variant}-${direction}`)
             .play(`${this.bodyType}-${this.variant}-${direction}`);
@@ -66,6 +68,7 @@ export default class CharacterLPC extends Phaser.GameObjects.Container {
 
     getRow(row: number, col: number): any {
         const position = (row - 1) * columns + (col - 1);
+        //@ts-ignore
         return (this.scene.textures.getFrame(this.traits.get(CharacterTraitsType.Body).texture.key).texture.frames as any)[position];
     }
 };
