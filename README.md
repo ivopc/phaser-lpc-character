@@ -1,7 +1,34 @@
 # Phaser 3 Universal LPC Character
+## (Under development)
+![image](https://i.imgur.com/6tm2Z2Q.png)
+
 Character Spritesheet based on Universal-LPC-Spritesheet for Phaser 3.
 
 It is provided as `Phaser.GameObjects.Sprite`, `Phaser.Physics.Arcade.Sprite` and `Phaser.Physics.Matter.Sprite` GameObjects. Also the animators, input behaviors and the entire spritesheet character variations will be included as a TypeScript Interfaces and methods handling.
+
+## How to use
+
+``` bash
+# install dependencies
+npm i
+# or
+yarn
+
+# start
+npm run dev
+# or
+yarn dev
+
+# build
+npm run build
+# or
+yarn build
+
+# generate characters spritesheet json map
+npm run generate-spritesheet-map
+# or
+yarn generate-spritesheet-map
+```
 
 ### Licensing and Attribution (Credits)
 
