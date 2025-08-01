@@ -1,6 +1,10 @@
 import Phaser from "phaser";
-import TestBackup from "./TestBackup";
+import Test from "./Test";
 
 new Phaser.Game({
-  scene: [TestBackup]
+  scene: [Test],
+  type: Phaser.AUTO,
+  parent: "app",
+  width: 800,
+  height: 600
 });

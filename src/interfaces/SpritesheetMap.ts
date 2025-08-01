@@ -105,3 +105,28 @@ export enum WalkAnimation {
  * @description It will be always `0` considering the Character LPC metrics 
  */
 export const ANIMATION_FIRST_FRAME = 0;
+
+
+export const directions = [WalkAnimation.Down, WalkAnimation.Up, WalkAnimation.Right, WalkAnimation.Left];
+
+export enum Direction {
+    Down = WalkAnimation.Down,
+    Up = WalkAnimation.Up,
+    Right = WalkAnimation.Right,
+    Left = WalkAnimation.Left,
+};
+
+export interface ICharacterModel {
+    bodyType: BodyTypes;
+    variant: string;
+    direction: Direction;
+};
+
+export class CharacterModel implements ICharacterModel {
+    bodyType!: BodyTypes;
+    variant!: string;
+    direction!: Direction;
+    constructor (data: ICharacterModel) {
+        Object.assign(this, data);
+    }
+}
