@@ -1,12 +1,12 @@
 import Phaser from "phaser";
 
-import { ISpritesheetMap, BodyTypes, CharacterTraitsType, WalkAnimation, ANIMATION_FIRST_FRAME, ICharacterModel, CharacterModel, Direction, directions } from "../interfaces/SpritesheetMap";
+import { ISpritesheetMap, CharacterTraitsType, WalkAnimation, UNIVERSAL_FRAME_SIZE, COLUMNS, ANIMATION_FIRST_FRAME, ICharacterModel, CharacterModel, Direction, directions } from "../interfaces/SpritesheetMap";
 
 
-const universalFrameSize = 64;
-const columns = 13;
 
-
+/**
+ * @todo stop to use this ridiculous class procedural methods to generate dynamic sprites traits and work with `TraitsProceduralMap` interface to generate character traits dynamically
+ */
 export default class CharacterLPC extends Phaser.GameObjects.Container {
 
     traits: Map<CharacterTraitsType, Phaser.GameObjects.Sprite> = new Map();
@@ -52,7 +52,7 @@ export default class CharacterLPC extends Phaser.GameObjects.Container {
         const spritesheetMap = spritesheetMaps.find(spritesheetMap => spritesheetMap.name === "Body color");
         console.log("body", spritesheetMap, "spritesheets/" + spritesheetMap?.layers[0][this.model.bodyType] + this.model.variant + ".png");
         directions.forEach(direction => {
-            this.scene.load.spritesheet(`lpc-character-body-${this.model.bodyType}-${this.model.variant}-${direction}`, "spritesheets/" + spritesheetMap?.layers[0][this.model.bodyType] + this.model.variant + ".png", { frameWidth: universalFrameSize, frameHeight: universalFrameSize });
+            this.scene.load.spritesheet(`lpc-character-body-${this.model.bodyType}-${this.model.variant}-${direction}`, "spritesheets/" + spritesheetMap?.layers[0][this.model.bodyType] + this.model.variant + ".png", { frameWidth: UNIVERSAL_FRAME_SIZE, frameHeight: UNIVERSAL_FRAME_SIZE });
         });
         this.scene.load.start();
         await Promise.all(directions.map(direction => once(this.scene, `filecomplete-spritesheet-lpc-character-body-${this.model.bodyType}-${this.model.variant}-${direction}`)));
@@ -63,14 +63,14 @@ export default class CharacterLPC extends Phaser.GameObjects.Container {
         const spritesheetMap = spritesheetMaps.find(spritesheetMap => spritesheetMap.name === "Human male" && spritesheetMap.type_name === "head");
         console.log("head", spritesheetMap, "spritesheets/" + spritesheetMap?.layers[0][this.model.bodyType] + this.model.variant + ".png");
         directions.forEach(direction => {
-            this.scene.load.spritesheet(`lpc-character-head-${this.model.bodyType}-${this.model.variant}-${direction}`, "spritesheets/" + spritesheetMap?.layers[0][this.model.bodyType] + this.model.variant + ".png", { frameWidth: universalFrameSize, frameHeight: universalFrameSize });
+            this.scene.load.spritesheet(`lpc-character-head-${this.model.bodyType}-${this.model.variant}-${direction}`, "spritesheets/" + spritesheetMap?.layers[0][this.model.bodyType] + this.model.variant + ".png", { frameWidth: UNIVERSAL_FRAME_SIZE, frameHeight: UNIVERSAL_FRAME_SIZE });
         });
         this.scene.load.start();
         await Promise.all(directions.map(direction => once(this.scene, `filecomplete-spritesheet-lpc-character-head-${this.model.bodyType}-${this.model.variant}-${direction}`)));
     }
 
     getRow(row: number, col: number, trait: CharacterTraitsType): any {
-        const position = (row - 1) * columns + (col - 1);
+        const position = (row - 1) * COLUMNS + (col - 1);
         //@ts-ignore
         return (this.scene.textures.getFrame(this.traits.get(trait).texture.key).texture.frames as any)[position];
     }

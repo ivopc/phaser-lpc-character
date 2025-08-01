@@ -1,7 +1,7 @@
 import Phaser from "phaser";
 
 import CharacterLPC from "./prefabs/CharacterLPC";
-import { BodyTypes, Direction, ISpritesheetMap, directions } from "./interfaces/SpritesheetMap";
+import { BodyTypes, ISpritesheetMap, directions } from "./interfaces/SpritesheetMap";
 
 export default class extends Phaser.Scene {
     preload () {
@@ -11,7 +11,7 @@ export default class extends Phaser.Scene {
     create () {
         const spritesheetMap = (this.cache.json.get("spritesheet-map") as ISpritesheetMap[]).find(spritesheetMap => spritesheetMap.name === "Body color") as ISpritesheetMap;
         const bodyTypes = ["male", "muscular", "female", "child", "teen", "pregnant", "skeleton", "zombie"];
-        [... Array(80)].forEach(() => {
+        [... Array(120)].forEach(() => {
             const x = Phaser.Math.Between(0, this.cameras.main.width);
             const y = Phaser.Math.Between(0, this.cameras.main.height);
             new CharacterLPC(

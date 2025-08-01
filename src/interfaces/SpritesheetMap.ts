@@ -85,6 +85,22 @@ export enum CharacterTraitsType {
     Wrists = "wrists",
 };
 
+export const TraitsProceduralMap = {
+    [CharacterTraitsType.Body]: {
+        animationKey: "body",
+        spritesheetMapFindOperators: [
+            ["name", "Body color"]
+        ]
+    },
+    [CharacterTraitsType.Head]: {
+        animationKey: "head",
+        spritesheetMapFindOperators: [
+            ["name", "Human male"],
+            ["type_name", "head"]
+        ]
+    }
+};
+
 
 /**
  * size per frame (width and height) = 64 pixels
@@ -105,6 +121,16 @@ export enum WalkAnimation {
  * @description It will be always `0` considering the Character LPC metrics 
  */
 export const ANIMATION_FIRST_FRAME = 0;
+
+/**
+ * @description It will be always `64px` the size Character LPC 
+ */
+export const UNIVERSAL_FRAME_SIZE = 64;
+
+/**
+ * @description The max number of columns is `13` in the Character LPC animation 
+ */
+export const COLUMNS = 13;
 
 
 export const directions = [WalkAnimation.Down, WalkAnimation.Up, WalkAnimation.Right, WalkAnimation.Left];
@@ -129,4 +155,4 @@ export class CharacterModel implements ICharacterModel {
     constructor (data: ICharacterModel) {
         Object.assign(this, data);
     }
-}
+};
