@@ -1,6 +1,6 @@
 # Phaser 3 Universal LPC Character
 ## (Under development)
-![image](https://i.imgur.com/6tm2Z2Q.png)
+![image](https://i.imgur.com/kM3GYev.png)
 
 Character Spritesheet based on Universal-LPC-Spritesheet for Phaser 3.
 
